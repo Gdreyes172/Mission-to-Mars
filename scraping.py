@@ -6,8 +6,6 @@ import datetime as dt
 from webdriver_manager.chrome import ChromeDriverManager
 
 
-
-
 def scrape_all():
     # Initiate headless driver for deployment
     executable_path = {'executable_path': ChromeDriverManager().install()}
